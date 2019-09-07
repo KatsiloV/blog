@@ -14,9 +14,8 @@ class AddPostsSeeder extends Seeder
     {
         $post = new Post();
         $post->title = 'Заголовок поста 1';
-        $post->text = 'ldjfksfjsklkkkfkdjkjsfkljlkjljjkjlkjljklksfjsklkkkfkdjkjsfkljlkj';
-        $post->user_id =0;
+        $post->text = 'Какой-то длинный текст вдыллар ывлпр влоарп ылвдп hsdlk';
+        $post->user_id = 0;
         $post->save();
-        
     }
 }
